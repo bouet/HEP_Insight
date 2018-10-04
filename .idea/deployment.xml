@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" serverName="HEP_Insight">
     <serverData>
+      <paths name="HEP_Insight">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="HEP_Insight" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="wamp">
         <serverdata>
           <mappings>
-            <mapping deploy="P:\wamp64\www\HEP_Insight" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
