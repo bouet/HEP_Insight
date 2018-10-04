@@ -1,43 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="399ca515-2b76-4f8d-84b0-ad38f08c66b6" name="Default Changelist" comment="Ajout page contact + images contact/carte">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="399ca515-2b76-4f8d-84b0-ad38f08c66b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/plan.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/plan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/plan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EPSI.html" beforeDir="false" afterPath="$PROJECT_DIR$/EPSI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IFAG.html" beforeDir="false" afterPath="$PROJECT_DIR$/IFAG.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IGEFI.html" beforeDir="false" afterPath="$PROJECT_DIR$/IGEFI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OPENSOURCESCHOOL.html" beforeDir="false" afterPath="$PROJECT_DIR$/OPENSOURCESCHOOL.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUPDECOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/SUPDECOM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WIS.html" beforeDir="false" afterPath="$PROJECT_DIR$/WIS.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carte.html" beforeDir="false" afterPath="$PROJECT_DIR$/carte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecoles.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecoles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/espacestravail.html" beforeDir="false" afterPath="$PROJECT_DIR$/espacestravail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/espacesvie.html" beforeDir="false" afterPath="$PROJECT_DIR$/espacesvie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/sample-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/sample/sample-page.html" afterDir="false" />
     </list>
     <list id="35ffe000-36e6-4ab5-802f-b81ba27798e5" name="Ajout page contact" comment="">
       <change beforePath="$PROJECT_DIR$/IDRAC.html" beforeDir="false" afterPath="$PROJECT_DIR$/IDRAC.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/sample-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/sample/sample-page.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/carte.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="304">
-                    <caret line="59" column="45" lean-forward="true" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-454788727">
@@ -102,25 +91,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="120" />
-          <entry key="txt" value="74" />
+          <entry key="html" value="168" />
+          <entry key="php" value="7" />
+          <entry key="txt" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="120" />
-          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="HTML" value="168" />
+          <entry key="PHP" value="7" />
+          <entry key="PLAIN_TEXT" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="6" />
+          <entry key="html" value="9" />
           <entry key="php" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="6" />
+          <entry key="HTML" value="9" />
           <entry key="PHP" value="1" />
         </counts>
       </usages-collector>
@@ -131,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+            <state relative-caret-position="255">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -140,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IDRAC.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
+            <state relative-caret-position="840">
               <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
             </state>
           </provider>
@@ -154,8 +145,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/espacesvie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="116" column="14" lean-forward="true" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tennis.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="105" column="115" lean-forward="true" selection-start-line="105" selection-start-column="115" selection-end-line="105" selection-end-column="115" />
             </state>
           </provider>
         </entry>
@@ -163,8 +163,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="83" column="4" lean-forward="true" selection-start-line="83" selection-start-column="4" selection-end-line="86" selection-end-column="10" />
+            <state relative-caret-position="391">
+              <caret line="182" column="25" lean-forward="true" selection-start-line="182" selection-start-column="25" selection-end-line="182" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carte.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -175,10 +193,13 @@
     <findStrings>
       <find>&gt;Mashup Template&lt;</find>
       <find>./contact.html</find>
+      <find>662,3,697,2,724,1,750,3,777,2,801,3,821,18,825,35,826,52,826,73,824,92,822,111,816,135,808,159,791,182,778,195,761,207,743,216,725,222,705,225,682,228,668,231,658,231,658,198,661,161,661,127,660,93,662,48,662,23,662,13</find>
+      <find>&lt;li&gt;&lt;a href=&quot;./components.html&quot; title=&quot;&quot;&gt;Components&lt;/a&gt;&lt;/li&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>&gt;HEP Insight&lt;</replace>
       <replace>./contact.php</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -189,7 +210,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/IDRAC.html" />
+        <option value="$PROJECT_DIR$/espacesvie.html" />
+        <option value="$PROJECT_DIR$/tennis.html" />
+        <option value="$PROJECT_DIR$/box.html" />
         <option value="$PROJECT_DIR$/carte.html" />
+        <option value="$PROJECT_DIR$/contact.php" />
       </list>
     </option>
   </component>
@@ -286,7 +311,7 @@
       <workItem from="1538478387179" duration="158000" />
       <workItem from="1538642682852" duration="1366000" />
       <workItem from="1538645441961" duration="4101000" />
-      <workItem from="1538651855126" duration="1046000" />
+      <workItem from="1538651855126" duration="4103000" />
     </task>
     <task id="LOCAL-00001" summary="Modif titre navbar + ajout photos carte/contact">
       <created>1538643216046</created>
@@ -337,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538649499390</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="AJout carte sans liens">
+      <created>1538652935805</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1538652935805</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9411000" />
+    <option name="totallyTimeSpent" value="12468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,10 +385,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.31509846" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.15351813" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.18923241" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -425,48 +457,63 @@
     <MESSAGE value="Ajout page contact" />
     <MESSAGE value="Ajout page contact + images contact/carte" />
     <MESSAGE value="Correction lien vers page contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction lien vers page contact" />
+    <MESSAGE value="AJout carte sans liens" />
+    <option name="LAST_COMMIT_MESSAGE" value="AJout carte sans liens" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/about.html" />
     <entry file="file://$PROJECT_DIR$/main.82cfd66e.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/IFAG.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IDRAC.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
+        <state relative-caret-position="840">
           <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IFAG.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/espacesvie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        <state relative-caret-position="289">
+          <caret line="116" column="14" lean-forward="true" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/tennis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        <state relative-caret-position="782">
+          <caret line="105" column="115" lean-forward="true" selection-start-line="105" selection-start-column="115" selection-end-line="105" selection-end-column="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.php">
+    <entry file="file://$PROJECT_DIR$/box.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="83" column="4" lean-forward="true" selection-start-line="83" selection-start-column="4" selection-end-line="86" selection-end-column="10" />
+        <state relative-caret-position="221">
+          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/carte.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="59" column="45" lean-forward="true" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+        <state relative-caret-position="604">
+          <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="182" column="25" lean-forward="true" selection-start-line="182" selection-start-column="25" selection-end-line="182" selection-end-column="25" />
         </state>
       </provider>
     </entry>

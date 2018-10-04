@@ -52,7 +52,7 @@
         <li><a href="./espacestravail.html" title="">Espaces de travail</a></li>
 		<li><a href="./espacesvie.html" title="">Espaces de vie</a></li>
         <li><a href="./contact.php" title="">Contact</a></li>
-        <li><a href="./components.html" title="">Components</a></li>
+
 
       </ul>
 
@@ -175,7 +175,7 @@ l\'équipe HEP.<br /><br />
                   <span class="fa-icon">
                     <i class="fa fa-at" aria-hidden="true"></i>
                   </span>
-                  e-mail@mail.io
+                   contact@hep-education.com
                 </li>
                 <li>
                   <span class="fa-icon">
