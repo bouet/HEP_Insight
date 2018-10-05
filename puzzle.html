@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="Page description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link href="./assets/apple-icon-180x180.png" rel="apple-touch-icon">
+  <link href="./assets/favicon.ico" rel="icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+<link href="css_puzzle/style.css" rel="stylesheet" />
+    <link href="css_puzzle/image-puzzle.css" rel="stylesheet" />
+    <script src="js_puzzle/jquery-2.1.1.min.js"></script>
+    <script src="js_puzzle/jquery-ui.js"></script>
+    <script src="js_puzzle/image-puzzle.js"></script>
+  <title>Puzzle</title>  
+
+<link href="./main.82cfd66e.css" rel="stylesheet"></head>
+
+<body>
+
+<!-- Add your content of header -->
+<header class="">
+  <div class="navbar navbar-default visible-xs">
+    <button type="button" class="navbar-toggle collapsed">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a href="./index.html" class="navbar-brand">HEP Insight</a>
+  </div>
+
+  <nav class="sidebar">
+    <div class="navbar-collapse" id="navbar-collapse">
+      <div class="site-header hidden-xs">
+          <a class="site-brand" href="./index.html" title="">
+            <img class="img-responsive site-logo" alt="" src="./assets/images/logoHEP.png">
+            HEP Insight
+          </a>
+        <p>Bienvenue sur le site decerné à la découverte du campus HEP de Nantes.</p>
+      </div>
+      <ul class="nav">
+        <li><a href="./index.html" title="">Accueil</a></li>
+        <li><a href="./carte.html" title="">Carte interactive</a></li>
+		<li><a href="./ecoles.html" title="">Les écoles</a></li>
+        <li><a href="./espacestravail.html" title="">Espaces de travail</a></li>
+		<li><a href="./espacesvie.html" title="">Espaces de vie</a></li>
+        <li><a href="./contact.php" title="">Contact</a></li>
+
+
+      </ul>
+
+      <nav class="nav-footer">
+        <p class="nav-footer-social-buttons">
+		  <a class="fa-icon" href="https://www.facebook.com/HEPEDUCATION/" title="" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a class="fa-icon" href="https://www.instagram.com/hepeducation/" title="" target="_blank">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a class="fa-icon" href="https://twitter.com/HEP_EDUCATION" title="" target="_blank">
+            <i class="fa fa-twitter"></i>
+          </a>
+		  <a class="fa-icon" href="https://www.linkedin.com/company/hep-education/" title="" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </p>
+      </nav>  
+    </div> 
+  </nav>
+</header>
+<main class="" id="main-collapse">
+
+
+<div class="row">
+  <div class="col-xs-12">
+    <div id="collage">
+        <h2>Puzzle</h2>
+        <hr />
+        <div id="playPanel" style="padding:5px;display:none;">
+            <h3 id="imgTitle"></h3> <hr />
+            <div style="display:inline-block; margin:auto; width:95%; vertical-align:top; text-align: center; font-weight: bold;">
+                <ul id="sortable" class="sortable"></ul>
+                <div id="actualImageBox">
+                    <div id="stepBox">
+                        <div>Coups:</div><div class="stepCount">0</div>
+                    </div>
+                    
+                    <div id="timeBox">
+                        Temps écoulé: <span id="timerPanel"></span> secs
+                    </div>
+                    <div id="pointsBox">
+                        Points: <span id="pointsPanel"></span> 
+                    </div>
+                    <img id="actualImage" />
+                    <div>Voici l'image à reconstituer.</div>
+                    <p id="levelPanel">
+                        <input type="radio" name="level" id="easy" checked="checked" value="3" /> <label for="easy">Facile</label>
+                        <input type="radio" name="level" id="medium" value="4" /> <label for="medium">Normal</label>
+                        <input type="radio" name="level" id="hard" value="5" /> <label for="hard">Difficile</label>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="gameOver" style="display:none;">
+            <div style="background-color: #fc9e9e; padding: 5px 10px 20px 10px; text-align: center; font-size: 16px;">
+                <h2 style="text-align:center">Vous avez gagner <span id="resultat"></span> points</h2>
+                Félicitations!! <br /> Vous avez reconstitué le plan. Vous serez redirigé automatiquement vers une carte interactive.
+                <br />
+                Coups: <span class="stepCount">0</span> coups.
+                <br />
+                Temps écoulé: <span class="timeCount">0</span> secondes<br />
+                <!--div>
+                    <button type="button" onclick="window.location.reload(true);">Rejouer</button>
+                </div-->
+            </div>
+        </div>
+
+        <script>
+            var images = [
+                { src: 'assets/plan/plan_puzzle.jpg', title: 'Reconstituez le plan et gagnez des points. Celui qui va cumuler le plus de points va gagner les frais de scolarité pour la première année.' }
+            ];
+
+            $(function () {
+                var gridSize = $('#levelPanel :radio:checked').val();
+                imagePuzzle.startGame(images, gridSize);
+                $('#newPhoto').click(function () {
+                    var gridSize = $('#levelPanel :radio:checked').val();  // Take the updated gridSize from UI.
+                    imagePuzzle.startGame(images, gridSize);
+                });
+
+                $('#levelPanel :radio').change(function (e) {
+                    var gridSize = $(this).val();
+                    imagePuzzle.startGame(images, gridSize);
+                });
+            });
+            
+            
+        </script>
+    </div>
+  </div>
+</div>
+
+
+</main>
+
+<script>
+document.addEventListener("DOMContentLoaded", function (event) {
+  navbarToggleSidebar();
+  navActivePage();
+});
+</script>
+
+--> <script type="text/javascript" src="./main.85741bff.js"></script></body>
+
+</html>
